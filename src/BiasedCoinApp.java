@@ -38,6 +38,7 @@ public class BiasedCoinApp {
 		System.out.println("\nTotal number of heads with " + bias1 + " bias: " + coin1Heads);
 		System.out.println("Total number of heads with " + bias2 + " bias: " + coin2Heads);
 		System.out.println("Total number of heads with no bias: " + fairCoinHeads);
+	
 	}
 
 }

@@ -5,7 +5,6 @@ public class BiasedCoin {
 	private final int HEADS = 0;
 	private final int TAILS = 1;
 	private double bias;
-	
 	private int face;
 	
 	public BiasedCoin() {
@@ -33,13 +32,12 @@ public class BiasedCoin {
 	}
 	
 	public String toString() {
-		
 		String faceName;
-		if(face == HEADS) {
+		if(face == HEADS) 
 			faceName  = "Heads";
-		} else {
+		else 
 			faceName = "Tails";
-		}
+		
 		
 		return faceName;
 	}
